@@ -1,6 +1,6 @@
 # Worflow GIT
 
-## Commande utilisé
+## Commande GIT à utiliser
 
 ### `git status`
 
@@ -81,3 +81,10 @@ A décider
 Proposition 1: GitHub central : main, feature, bugFix
 
 Proposition 2: Git local copy Github
+
+## Repétabilité
+
+Pour mettre à jour les librairies nécessaires on utilse cette commande :
+```bash
+pip freeze > requirements.txt
+```
