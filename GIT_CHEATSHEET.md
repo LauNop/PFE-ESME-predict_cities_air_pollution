@@ -84,7 +84,11 @@ Proposition 2: Git local copy Github
 
 ## Repétabilité
 
-Pour mettre à jour les librairies nécessaires on utilse cette commande :
+Pour mettre à jour requirements.txt à partir des librairies installées sur votre environnement on utilse cette commande :
 ```bash
 pip freeze > requirements.txt
+```
+Pour installer les librairies présentes sur requirements.txt sur votre environnement on utilse cette commande :
+```bash
+pip install -r requirements.txt
 ```
